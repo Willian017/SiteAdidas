@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    border: 4px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+header img{
+    width: 100px;
+    margin: 5px 20px;
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover{
+    text-decoration: underline black 2px;
+}
+
+header form{
+    margin-left: 100px;
+}
+
+header form input[type="text"]{
+    border-radius: 10px;
+    background: white;
+    padding: 5px;
+    border: 1px solid black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header form img{
+    position: absolute;
+    left: 63.5vw;
+    width: 20px;
+    height: 20px;
+    margin: none;
+    z-index: 1;
+}
+
+header form input[type="text"]:focus{
+    background: white;
+}
+
+a img{
+    width: 30px;
+    margin: none;
+}
+
+
+article{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article img{
+    width: 600px;
+    margin: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto h1{
+    margin: 10px;
+}
+
+.texto h2{
+    margin: 10px;
+    font-size: 13px;
+}
+
+.texto p{
+    font-size: 12px;
+    margin: 10px;
+    text-align: center;
+}
+
+.texto img{
+    width: 30px;
+    border: 2px black solid;
+    margin: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.texto a{
+    color: white;
+    text-decoration: none;
+    background: black;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px black;
+}
+
+
+
+
+
